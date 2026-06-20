@@ -135,16 +135,6 @@ Simulation
 
 ---
 
-## Future Improvements
-
-- PCB implementation
-- Efficiency comparison with other voltage regulators
-- Different Zener voltage configurations
-- Temperature effect analysis
-- Regulator performance comparison
-
----
-
 ## Author
 
 **Aditya Ojha**
@@ -155,8 +145,3 @@ Indian Institute of Technology Madras
 B.Tech Electronics & Telecommunication Engineering  
 Jabalpur Engineering College
 
----
-
-## License
-
-This project is intended for educational and learning purposes.
