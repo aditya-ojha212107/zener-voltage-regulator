@@ -100,8 +100,7 @@ As the load resistance increased, the output gradually stabilized near the Zener
 
 Project Demonstration:
 
-(Add your YouTube Unlisted Link here)
-
+https://youtu.be/XQnNPkJf-hc
 ---
 
 ## Key Learning Outcomes
