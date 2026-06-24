@@ -95,7 +95,7 @@ As the load resistance increased, the output gradually stabilized near the Zener
 
 ## Hardware Implementation
 
-![Hardware](images/hardware-implementation.jpg)
+![Hardware](images/hardware-implementation.png)
 
 ---
 
@@ -103,7 +103,7 @@ As the load resistance increased, the output gradually stabilized near the Zener
 
 ## Experimental Output (PixelPulse)
 
-![PixelPulse Waveform](images/pixelpulse-waveform.jpg)
+![PixelPulse Waveform](images/pixelpulse-waveform.png)
 
 ---
 
