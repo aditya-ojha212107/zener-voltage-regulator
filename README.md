@@ -74,25 +74,36 @@ As the load resistance increased, the output gradually stabilized near the Zener
 
 ### Circuit Schematic
 
-(Add schematic image here)
+## Dual Zener Voltage Regulator
+
+![Dual Zener Voltage Regulator](images/dual-zener-voltage-regulator.png)
 
 ---
 
 ### LTspice Simulation
 
-(Add simulation output here)
+## Line Regulation Analysis
 
+![Line Regulation](images/line-regulation-analysis.png)
+
+## Load Regulation Analysis
+
+![Load Regulation](images/load-regulation-analysis.png)
 ---
 
 ### Hardware Implementation
 
-(Add hardware implementation image here)
+## Hardware Implementation
+
+![Hardware](images/hardware-implementation.jpg)
 
 ---
 
 ### PixelPulse Waveforms
 
-(Add PixelPulse waveform image here)
+## Experimental Output (PixelPulse)
+
+![PixelPulse Waveform](images/pixelpulse-waveform.jpg)
 
 ---
 
