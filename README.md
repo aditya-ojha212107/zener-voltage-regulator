@@ -18,22 +18,26 @@ The simulated results were further validated using practical hardware implementa
 
 ---
 
+## Tools Used
+
+### Software
+- LTspice
+- PixelPulse
+
+### Hardware
+- ADALM1000
+- Breadboard
+- Zener Diodes
+- Resistors
+
+---
+
 ## LTspice Techniques Used
 
 - Transient Analysis (.tran)
 - Operating Point Analysis (.op)
 - Parameter Sweep (.step param)
 - Custom Zener Modeling
-
----
-
-## Repository Contents
-
-| File | Description |
-|------|-------------|
-| line-regulation-analysis.asc | LTspice schematic for analyzing the effect of input voltage variation (Line Regulation). |
-| load-regulation-analysis.asc | LTspice schematic for analyzing output regulation by varying load resistance. |
-| dual-zener-voltage-regulator.asc | LTspice schematic implementing a dual Zener voltage regulator configuration. |
 
 ---
 
@@ -70,38 +74,25 @@ As the load resistance increased, the output gradually stabilized near the Zener
 
 ---
 
-## Images
+## LTspice Simulation Results
 
-### Circuit Schematic
+### Line Regulation Analysis
 
-## Dual Zener Voltage Regulator
-
-![Dual Zener Voltage Regulator](images/dual-zener-voltage-regulator.png)
-
----
-
-### LTspice Simulation
-
-## Line Regulation Analysis
+The input voltage was varied while observing the regulator output response.
 
 ![Line Regulation](images/line-regulation-analysis.png)
 
-## Load Regulation Analysis
+### Load Regulation Analysis
+
+The load resistance was varied to study regulation performance under changing load conditions.
 
 ![Load Regulation](images/load-regulation-analysis.png)
----
-
-### Hardware Implementation
 
 ## Hardware Implementation
 
 ![Hardware](images/hardware-implementation.png)
 
----
-
-### PixelPulse Waveforms
-
-## Experimental Output (PixelPulse)
+## Experimental Waveforms
 
 ![PixelPulse Waveform](images/pixelpulse-waveform.png)
 
@@ -111,7 +102,8 @@ As the load resistance increased, the output gradually stabilized near the Zener
 
 Project Demonstration:
 
-https://youtu.be/XQnNPkJf-hc
+[Watch Project Demonstration](https://youtu.be/XQnNPkJf-hc)
+
 ---
 
 ## Key Learning Outcomes
@@ -128,21 +120,23 @@ Simulation
 
 ---
 
-## Tools & Components
+## Repository Structure
 
-### Software
-
-- LTspice
-- PixelPulse
-
-### Hardware
-
-- ADALM1000
-- Breadboard
-- Zener Diodes
-- Resistors
-- Connecting Wires
-
+```text
+.
+├── dual-zener-voltage-regulator.asc
+├── line-regulation-analysis.asc
+├── load-regulation-analysis.asc
+│
+├── images/
+│   ├── dual-zener-voltage-regulator.png
+│   ├── line-regulation-analysis.png
+│   ├── load-regulation-analysis.png
+│   ├── hardware-implementation.png
+│   └── pixelpulse-waveform.png
+│
+└── README.md
+```
 ---
 
 ## Author
